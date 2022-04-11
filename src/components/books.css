@@ -1,0 +1,15 @@
+.booksDiv{
+    display:grid;
+    grid-template-columns: repeat(4,200px);
+   gap:100px;
+   margin:auto;
+   border:1px solid red;
+   width:85%;
+    
+    
+}
+.booksDiv >img{
+    width:250px;
+    height:300px;
+    margin-right:20px;
+}
