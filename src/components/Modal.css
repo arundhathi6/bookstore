@@ -1,0 +1,90 @@
+/* body.active-modal {
+  overflow-y: hidden;
+} */
+.overlay {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  display:flex;
+  align-items: center;
+  background-color:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1));
+  justify-content: center;
+}
+
+.overlay-inner{
+  width:70%;
+  height:540px;
+  background-color:white;
+  box-sizing: border-box;
+  padding:1.5rem;
+  position:relative;
+  overflow:hidden;
+  font-size: 1rem;
+  
+ 
+}
+
+
+.overlay-inner .close{
+  position: absolute;
+  top: 1rem; 
+  right: 1rem;
+  width:30px;
+  background-color:transparent;
+  font-size: 17px;
+  border:none;
+ outline:none;
+}
+.inner-box{
+  width:800px;
+  text-align: center;
+  /* border:1px solid red; */
+  justify-content: center;
+}
+.overlay-inner .inner-box .info{
+  width:70%;
+  /* border:1px solid black; */
+}
+.overlay-inner .inner-box{
+  margin-top:30px;
+  display:flex;
+  justify-content: center;
+}
+.overlay-inner .inner-box img{
+  width:150px;
+  height:200px;
+  margin-right: 20px;
+}
+.overlay-inner .inner-box h1{
+
+  color:black;
+}
+.overlay-inner .inner-box h3{
+  margin-top: 10px;
+  color:green;
+}
+.overlay-inner .inner-box h4{
+ 
+  color:blue;
+}
+.overlay-inner .inner-box button{
+  outline:none;
+  border:none;
+  background-color:#24a0ed;
+  border-radius:5px ;
+  width:100px;
+  font-weight: bold;
+  padding:0.3rem 0.5rem
+}
+.overlay-inner .description{
+  margin-top: 2rem;
+  text-align:left;
+  font-size: 11px;
+ /* background-color:aqua; */
+ color:black;
+ 
+}

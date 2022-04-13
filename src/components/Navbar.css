@@ -38,3 +38,49 @@
     padding-left:20px; 
    
 }
+.book_card{
+    display:grid;
+    grid-template-columns: repeat(4,200px);
+    gap:20px;
+  height:560px;
+  overflow-y: scroll;
+  padding-right: 20px;
+   
+
+}
+.book_card::-webkit-scrollbar {
+    display: none;
+  }
+.book_card>img{
+    width:200px;
+    height:350px;
+}
+.side_img{
+    width:40%;
+    height:560px;
+}
+.border_div{
+    border:1px solid gray;
+    padding:10px;
+    border-radius: 10px;
+   
+    
+   
+}
+.border_div:hover{
+    transform:scale(0.9);
+   
+    background-color:chocolate;
+}
+.when_ntg{
+ width:200px;
+ height:200px; 
+ margin-top: 40%;
+ margin-left: 15%; 
+}
+.when_text{
+    margin-left: 15%; 
+}
+#ntg{
+    margin-left: 20%;
+}
